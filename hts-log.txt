@@ -1,0 +1,70 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 23 Jun 2025 17:39:51 at https://cafe-nine-fifty/home +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+cafe-nine-fifty
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://brewfye-template.webflow.io/home -O1 "G:\hotels\rahi cafe" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitivecafe-nine-fiftycafe-nine-fifty
+cafe-nine-fiftycafe-nine-fifty
+	such as username/password authentication for websites mirrored in thiscafe-nine-fiftycafe-nine-fifty
+cafe-nine-fiftycafe-nine-fifty
+	do not share these files/folders if you want these information to remacafe-nine-fiftycafe-nine-fifty
+cafe-nine-fiftycafe-nine-fifty
+cafe-nine-fiftycafe-nine-fifty
+cafe-nine-fiftycafe-nine-fifty
+17:40:08	Warning: 	Retry after error 502 (Bad Gateway) at link https://cafe-nine-fifty/shop (from https://brewfye-templatecafe-nine-fifty
+cafe-nine-fiftycafe-nine-fifty
+17:40:14	Warning: 	Retry after error 502 (Bad Gateway) at licafe-nine-fifty.webflow.io/ (from https://brewfcafe-nine-fifty)
+cafe-nine-fiftycafe-nine-fifty
+17:40:14	Warning: 	Retry after error 502 (Bad Gateway) at link https://cafe-nine-fifty/product/american (from https://brewfye-template.webflow.io/home)cafe-nine-fifty
+cafe-nine-fiftycafe-nine-fifty
+17:40:17	Warning: 	Retry after error 502 (Bad Gateway) at link https://cafe-nine-fifty/"https://cdn.prod.website-files.com/674fe3426befc8d5220fd7ea%2F677fb4cafe-nine-fiftydeo CTA-poster-00001.jpg" (from https://brewfye-template.webflow.io/home)
+cafe-nine-fiftycafe-nine-fifty
+17:40:17	Warning: 	Retry after error 502 (Bad Gateway) at link https://cafe-nine-fifty/"https://cdn.prod.website-files.comcafe-nine-fiftyF677f5b55c1710e6acd65c8e9_About Video-poster-00001.jpg" (from https://brewfye-template.webflow.io/about)
+cafe-nine-fiftycafe-nine-fifty
+17:40:17	Warning: 	Retry after error 502 (Bad Gateway) at cafe-nine-fiftyte.webflow.io/shop (from https:/cafe-nine-fiftyo/home)
+cafe-nine-fiftycafe-nine-fifty
+17:40:18	Warning: 	Retry after error 502 (Bad Gateway) at link https:cafe-nine-fiftyio/blog/best-pinterest-boards-for-learning-about-business (from https://brewfye-template.webflow.io/blog)cafe-nine-fifty
+cafe-nine-fiftycafe-nine-fifty
+17:40:18	Warning: 	Retry after error 502 (Bad Gateway) at link https:cafe-nine-fiftyio/blog/worst-business-accounts-to-follow (from https:cafe-nine-fiftyio/blog)
+cafe-nine-fiftycafe-nine-fifty
+17:40:18	Warning: 	Retry after error 502 (Bad Gateway) at link https://brewfye-template.webflow.io/blog?07822ad0_page=2 (from https://brewfye-template.webflow.io/blog)
+
+17:40:19	Warning: 	Retry after error 502 (Bad Gateway) at link https://brewfye-template.webflow.io/ (from https://brewfye-template.webflow.io/home)
+
+17:40:20	Warning: 	Retry after error 502 () at link https://brewfye-template.webflow.io/product/american (from https://brewfye-template.webflow.io/home)
+
+17:40:20	Warning: 	Retry after error 502 (Bad Gateway) at link https://brewfye-template.webflow.io/"https://cdn.prod.website-files.com/674fe3426befc8d5220fd7ea%2F677fb4b400fe7b2a8798ac4e_Coffe Video CTA-poster-00001.jpg" (from https://brewfye-template.webflow.io/home)
+
+17:40:20	Warning: 	Retry after error 502 (Bad Gateway) at link https://brewfye-template.webflow.io/"https://cdn.prod.website-files.com/674fe3426befc8d5220fd7ea%2F677f5b55c1710e6acd65c8e9_About Video-poster-00001.jpg" (from https://brewfye-template.webflow.io/about)
+
+17:40:20	Error: 	"Bad Gateway" (502) after 2 retries at link https://brewfye-template.webflow.io/shop (from https://brewfye-template.webflow.io/home)
+
+17:40:20	Warning: 	Retry after error 502 (Bad Gateway) at link https://brewfye-template.webflow.io/blog/best-pinterest-boards-for-learning-about-business (from https://brewfye-template.webflow.io/blog)
+
+17:40:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://brewfye-template.webflow.io/blog/worst-business-accounts-to-follow (from https://brewfye-template.webflow.io/blog)
+
+17:40:22	Warning: 	Retry after error 502 (Bad Gateway) at link https://brewfye-template.webflow.io/blog?07822ad0_page=2 (from https://brewfye-template.webflow.io/blog)
+
+17:40:23	Error: 	"Bad Gateway" (502) after 2 retries at link https://brewfye-template.webflow.io/ (from https://brewfye-template.webflow.io/home)
+
+17:40:23	Error: 	"" (502) after 2 retries at link https://brewfye-template.webflow.io/product/american (from https://brewfye-template.webflow.io/home)
+
+17:40:23	Error: 	"Bad Gateway" (502) after 2 retries at link https://brewfye-template.webflow.io/"https://cdn.prod.website-files.com/674fe3426befc8d5220fd7ea%2F677fb4b400fe7b2a8798ac4e_Coffe Video CTA-poster-00001.jpg" (from https://brewfye-template.webflow.io/home)
+
+17:40:23	Error: 	"Bad Gateway" (502) after 2 retries at link https://brewfye-template.webflow.io/"https://cdn.prod.website-files.com/674fe3426befc8d5220fd7ea%2F677f5b55c1710e6acd65c8e9_About Video-poster-00001.jpg" (from https://brewfye-template.webflow.io/about)
+
+17:40:23	Error: 	"Bad Gateway" (502) after 2 retries at link https://brewfye-template.webflow.io/blog/best-pinterest-boards-for-learning-about-business (from https://brewfye-template.webflow.io/blog)
+
+17:40:23	Error: 	"Bad Gateway" (502) after 2 retries at link https://brewfye-template.webflow.io/blog/worst-business-accounts-to-follow (from https://brewfye-template.webflow.io/blog)
+
+17:40:23	Error: 	"Bad Gateway" (502) after 2 retries at link https://brewfye-template.webflow.io/blog?07822ad0_page=2 (from https://brewfye-template.webflow.io/blog)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 32 seconds : 59 links scanned, 34 files written (7251708 bytes overall) [4453959 bytes received at 139186 bytes/sec], 3761538 bytes transferred using HTTP compression in 30 files, ratio 21%, 6.3 requests per connection
+
+(8 errors, 16 warnings, 0 messages)
+
