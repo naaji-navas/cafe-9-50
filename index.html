@@ -103,26 +103,16 @@
       };
     </script>
   <style>
+    .background-image.home-hero {
+      filter: blur(3px);
+      -webkit-filter: blur(3px);
+    }
+    .section-inner.spacial-menu {
+      display: block;
+    }
     .spacial-swiper {
       position: relative;
-      padding: 0 50px;
-    }
-    .spacial-swiper .swiper-button-prev,
-    .spacial-swiper .swiper-button-next {
-      color: #c87c3b;
-      width: 40px;
-      height: 40px;
-      top: 35%;
-    }
-    .spacial-swiper .swiper-button-prev::after,
-    .spacial-swiper .swiper-button-next::after {
-      display: none;
-    }
-    .spacial-swiper .swiper-button-prev {
-      left: 0;
-    }
-    .spacial-swiper .swiper-button-next {
-      right: 0;
+      overflow: hidden;
     }
     .spacial-swiper .swiper-pagination {
       position: relative;
@@ -1576,8 +1566,8 @@
                         Variety Beverages
                       </h2>
                       <p>
-                        From classic espressos to creative lattes, enjoy a
-                        diverse menu crafted.
+                        From creative lattes to healthy juices, enjoy a
+                        diverse crafted menu.
                       </p>
                     </div>
                   </div>
@@ -1660,12 +1650,13 @@
                       Where Every Sip and Slice Is a Moment to Savor
                     </h3>
                     <p>
-                      At Cafe 9:50, time slows down. The bold aroma of
-                      handpicked coffee beans mingles with the warmth of
-                      stone-baked, gourmet pizzas — crafted to delight, served
-                      with care. This is more than a café; it’s a thoughtfully
-                      curated space where taste meets tranquility, and every
-                      detail is designed to elevate your everyday pause.
+                      At Café 9:50, creativity lingers in the air. The rhythm
+                      of soft music blends with the scent of stone-baked
+                      pizzas, while shelves of books and strokes of art invite
+                      you to pause and explore. This is more than a café; it’s
+                      a thoughtfully curated space where music, stories, and
+                      creativity meet, turning every visit into a moment of
+                      inspiration.
                     </p>
                   </div>
                   <div class="layout-site-inner home-about-left-images">
@@ -1875,13 +1866,12 @@
                     class="layout-site-inner home-about-right-bottom"
                   >
                     <p>
-                      Established in 2025, Cafe 9:50 is more than a place to
-                      dine — it’s where conversations brew as richly as the
-                      coffee, and every slice of pizza carries the warmth of
-                      home. We take pride in curating an inviting atmosphere
-                      where moments are shared, ideas take shape, and quality is
-                      evident in every cup we serve and every oven-fresh bite we
-                      craft.
+                      Established in 2025, Café 9:50 is more than a place to
+                      dine — it’s where melodies play, pages turn, and ideas
+                      come alive through art and workshops. We take pride in
+                      creating a warm, welcoming atmosphere where conversations
+                      flow, creativity finds its space, and every slice of
+                      oven-fresh pizza becomes part of a moment worth sharing.
                     </p>
                     <div class="button-wrapper inline-flex-left">
                       <a
@@ -2206,40 +2196,6 @@
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-button-prev">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="100%"
-                      viewBox="0 0 9 14"
-                      fill="none"
-                      class="arrow-angle"
-                    >
-                      <path
-                        d="M7.5 13L1.5 7L7.5 1"
-                        stroke="currentColor"
-                        stroke-width="1.28571"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div class="swiper-button-next">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="100%"
-                      viewBox="0 0 9 14"
-                      fill="none"
-                      class="arrow-angle"
-                    >
-                      <path
-                        d="M1.5 13L7.5 7L1.5 1"
-                        stroke="currentColor"
-                        stroke-width="1.28571"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
                   <div class="swiper-pagination"></div>
                 </div>
               </div>
@@ -2251,10 +2207,6 @@
     slidesPerView: 1,
     spaceBetween: 20,
     loop: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -2264,7 +2216,7 @@
         slidesPerView: 2,
       },
       1024: {
-        slidesPerView: 3,
+        slidesPerView: 3.2,
       },
     },
   });
@@ -3121,10 +3073,9 @@ document.addEventListener('DOMContentLoaded', () => {
                           "
                           class="color-white margin-bottom-testimonial"
                         >
-                          &quot;Cafe 9:50 brings the kind of peace you search
-                          for in a café. Their cold brew is absolutely
-                          refreshing, and the staff makes you feel truly
-                          welcomed&quot;
+                          &quot;I’m obsessed with this place - the ambience is
+                          gorgeous, the quality of food is top-tier, and the
+                          prices are honestly too good to be true.&quot;
                         </h3>
                         <div
                           data-w-id="904933be-2322-82f8-ef05-42c3eda3e0c3"
@@ -3434,9 +3385,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 "
                 class="color-white font-size-smaller-cta"
               >
-                Proudly originating in a former
-                <span class="font-inter">19</span>th century watch house on
-                London&#x27;s famous Barondess Street.
+                Proudly serving authentic coffee and gourmet pizzas in
+                the city of Mahakal.
               </h2>
               <div class="two-button-wrapper">
                 <div
@@ -3653,7 +3603,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     data-w-id="be1a8336-db18-b0c3-135c-6155d1f99dca"
                     class="margin-verticle-8x24"
                   >
-                    5, Azad Nagar, in front of Pushpa Mission  Hospital
+                    5, Azad Nagar, in front of Pushpa Mission Hospital, Ujjain, M.P. (456010)
                   </div>
                   <div
                     data-w-id="811624df-d02f-2c20-1b73-22066ab276aa"
@@ -3715,8 +3665,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     </p>
                     <p>‍</p>
                     <ul role="list">
-                      <li>Mon-Fri: 11 AM – 10 : 30 PM</li>
-                      <li>Sat-Sun: 11 AM – 11 : 30 PM</li>
+                      <li>Mon-Fri: 11:30 am - 11:30 pm</li>
+                      <li>Sat-Sun: 11:30 am - 12:00 am</li>
                     </ul>
                   </div>
                   <div class="location-left-image-wrapper">
@@ -3815,33 +3765,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     <div class="margin-bottom margin-32px">
                       <div>
-                        Join us for a delightful coffee experience, where every
-                        sip brings warmth and joy.
+                        Join us for a delightful cafe experience, where every
+                        moment brings warmth and joy.
                       </div>
                     </div>
                     <div class="margin-bottom-40">
                       <div class="social-icon-wrapper">
                         <a
-                          aria-label="Social Link"
-                          href="http://facebook.com/"
-                          target="_blank"
-                          class="social-icon-item footer w-inline-block"
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            class="social-svg"
-                          >
-                            <path
-                              d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47062 14 5.5 16 5.5H17.5V2.1401C17.1743 2.09685 15.943 2 14.6429 2C11.9284 2 10 3.65686 10 6.69971V9.5H7V13.5H10V22H14V13.5Z"
-                              fill="currentColor"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a
-                          aria-label="Social Link"
+                          aria-label="Instagram"
                           href="https://instagram.com/"
                           target="_blank"
                           class="social-icon-item footer w-inline-block"
@@ -3854,14 +3785,14 @@ document.addEventListener('DOMContentLoaded', () => {
                             class="social-svg"
                           >
                             <path
-                              d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z"
+                              d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.054 1.97.24 2.43.403a4.088 4.088 0 011.47.957c.453.453.753.883.957 1.47.163.46.349 1.26.404 2.43.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.055 1.17-.241 1.97-.404 2.43a4.088 4.088 0 01-.957 1.47 4.088 4.088 0 01-1.47.957c-.46.163-1.26.349-2.43.404-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.055-1.97-.241-2.43-.404a4.088 4.088 0 01-1.47-.957 4.088 4.088 0 01-.957-1.47c-.163-.46-.349-1.26-.404-2.43C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.055-1.17.241-1.97.404-2.43a4.088 4.088 0 01.957-1.47A4.088 4.088 0 015.064 2.293c.46-.163 1.26-.349 2.43-.404C8.416 2.175 8.796 2.163 12 2.163M12 0C8.741 0 8.333.014 7.053.072 5.775.13 4.903.333 4.14.63a5.876 5.876 0 00-2.126 1.384A5.876 5.876 0 00.63 4.14C.333 4.903.13 5.775.072 7.053.014 8.333 0 8.741 0 12s.014 3.667.072 4.947c.058 1.278.261 2.15.558 2.913a5.876 5.876 0 001.384 2.126A5.876 5.876 0 004.14 23.37c.763.297 1.635.5 2.913.558C8.333 23.986 8.741 24 12 24s3.667-.014 4.947-.072c1.278-.058 2.15-.261 2.913-.558a5.876 5.876 0 002.126-1.384 5.876 5.876 0 001.384-2.126c.297-.763.5-1.635.558-2.913C23.986 15.667 24 15.259 24 12s-.014-3.667-.072-4.947c-.058-1.278-.261-2.15-.558-2.913a5.876 5.876 0 00-1.384-2.126A5.876 5.876 0 0019.86.63C19.097.333 18.225.13 16.947.072 15.667.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
                               fill="currentColor"
                             ></path>
                           </svg>
                         </a>
                         <a
-                          aria-label="Social Link"
-                          href="https://x.com/"
+                          aria-label="Pinterest"
+                          href="https://pinterest.com/"
                           target="_blank"
                           class="social-icon-item footer w-inline-block"
                         >
@@ -3873,7 +3804,26 @@ document.addEventListener('DOMContentLoaded', () => {
                             class="social-svg"
                           >
                             <path
-                              d="M8 2H1L9.26086 13.0145L1.44995 21.9999H4.09998L10.4883 14.651L16 22H23L14.3917 10.5223L21.8001 2H19.1501L13.1643 8.88578L8 2ZM17 20L5 4H7L19 20H17Z"
+                              d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345c-.091.379-.293 1.194-.333 1.361-.052.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </a>
+                        <a
+                          aria-label="Google"
+                          href="https://google.com/"
+                          target="_blank"
+                          class="social-icon-item footer w-inline-block"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="100%"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            class="social-svg"
+                          >
+                            <path
+                              d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"
                               fill="currentColor"
                             ></path>
                           </svg>
@@ -3918,12 +3868,12 @@ document.addEventListener('DOMContentLoaded', () => {
                       <div class="footer-link-wrapper">
                         <div href="#" class="footer-text-wrapper">
                           <div class="font-weight-400">
-                            Mon-Fri: 11 AM - 10 : 30 PM
+                            Mon-Fri: 11:30 am - 11:30 pm
                           </div>
                         </div>
                         <div href="#" class="footer-text-wrapper">
                           <div class="font-weight-400">
-                            Sat-Sun: 11 AM - 11 : 30 PM
+                            Sat-Sun: 11:30 am - 12:00 am
                           </div>
                         </div>
                       </div>
@@ -3933,7 +3883,7 @@ document.addEventListener('DOMContentLoaded', () => {
                       <div class="footer-link-wrapper">
                         <div href="#" class="footer-text-wrapper">
                           <div class="font-weight-400">
-                            5, Azad Nagar, in front of Pushpa Mission  Hospital
+                            5, Azad Nagar, in front of Pushpa Mission Hospital, Ujjain, M.P. (456010)
                           </div>
                         </div>
                         <a
